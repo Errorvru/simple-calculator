@@ -10,7 +10,7 @@ class Main {
     Scanner input = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: +, -, *, or /");
+    System.out.println("Choose an operator: +, -, *, /,or %(percentage)");
     operator = input.next().charAt(0);
 
     // ask users to enter numbers
@@ -46,6 +46,11 @@ class Main {
         System.out.println(number1 + " / " + number2 + " = " + result);
         break;
 
+     //Perform Percentage operaton between two number 
+case '%':
+        result = (number1 *100)/ number2;
+        System.out.println(number1 + " %(per) " + number2 + " = " + result);
+        break;
       default:
         System.out.println("Invalid operator!");
         break;
