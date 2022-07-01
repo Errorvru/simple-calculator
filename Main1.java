@@ -11,7 +11,7 @@ class Main1 {
 
     // ask users to enter operator
  //   System.out.println("Choose an operator: +, -, *, /,^(power) or #(root)");
-    //operator = input.next().charAt(0);
+    operator = 43;//input.next().charAt(0);
 
     // ask users to enter numbers
     System.out.println("Enter first number");
