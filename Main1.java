@@ -11,16 +11,16 @@ class Main1 {
 
     // ask users to enter operator
     System.out.println("Choose an operator: +, -, *, /,^(power) or #(root)");
-    operator = input.next().charAt(0);
+   operator = +;//input.next().charAt(0);
 
     // ask users to enter numbers
     System.out.println("Enter first number");
-    number1 = 25//input.nextDouble();
+    number1 = 25;//input.nextDouble();
 
     System.out.println("Enter second number");
-    number2 = 10//input.nextDouble();
+    number2 = 10;//input.nextDouble();
 
-    switch (+) {
+    switch (operator) {
 
       // performs addition between numbers
       case '+':
