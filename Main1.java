@@ -10,8 +10,8 @@ class Main1 {
   //  Scanner input = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: +, -, *, /,^(power) or #(root)");
-   //operator = +;//input.next().charAt(0);
+ //   System.out.println("Choose an operator: +, -, *, /,^(power) or #(root)");
+    //operator = input.next().charAt(0);
 
     // ask users to enter numbers
     System.out.println("Enter first number");
@@ -20,7 +20,7 @@ class Main1 {
     System.out.println("Enter second number");
     number2 = 10;//input.nextDouble();
 
-    switch (+) {
+    switch (1) {
 
       // performs addition between numbers
       case '+':
