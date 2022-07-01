@@ -20,7 +20,7 @@ class Main1 {
     System.out.println("Enter second number");
     number2 = 10;//input.nextDouble();
 
-    switch (1) {
+    switch (operator) {
 
       // performs addition between numbers
       case '+':
